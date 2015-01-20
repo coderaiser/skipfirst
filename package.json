@@ -1,6 +1,6 @@
 {
   "name": "skipfirst",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Skip first time condition are true and call function next time",
   "main": "lib/skipfirst.js",
   "scripts": {
