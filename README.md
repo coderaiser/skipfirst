@@ -25,8 +25,10 @@ var skipfirst   = require('skipfirst'),
     });
 
 /* 
- * first enter key press would be skiped 
+ * first <enter> key press would be skiped 
  * and called next time
+ *
+ * clear times when <escape> pressed.
  */
 window.addEventListener('keydown', function(event) {
     var key         = event.keyCode,
