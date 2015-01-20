@@ -1,0 +1,26 @@
+{
+  "name": "skipfirst",
+  "homepage": "https://github.com/coderaiser/skipfirst",
+  "authors": [
+    "coderaiser <mnemonic.enemy@gmail.com>"
+  ],
+  "description": "Skip first time condition are true and call function next time.",
+  "main": "lib/skipfirst.js",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "function",
+    "skip",
+    "first"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
