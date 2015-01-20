@@ -28,7 +28,7 @@ var skipfirst   = require('skipfirst'),
  * first enter key press would be skiped 
  * and called next time
  */
-document.body.addEventListener('keydown', function(event) {
+window.addEventListener('keydown', function(event) {
     var key         = event.keyCode,
         identifier  = event.keyIdentifier,
         ENTER       = 13,
