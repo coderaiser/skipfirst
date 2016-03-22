@@ -32,7 +32,7 @@ var skipfirst   = require('skipfirst'),
  */
 window.addEventListener('keydown', function(event) {
     var key         = event.keyCode,
-        identifier  = event.keyIdentifier,
+        identifier  = event.keyIdentifier || event.key,
         ENTER       = 13,
         ESC         = 27;
     
